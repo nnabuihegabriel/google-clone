@@ -1,0 +1,99 @@
+body,p{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    margin-left: auto;
+    width: 10%;
+    font-size: 16px;
+    padding: 1.22em;
+}
+ a{
+    color: black;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+nav img{
+    height: 20px;
+}
+
+main img{
+   
+}
+
+main{
+    width: 50%;
+    margin: 10.4em auto;
+    text-align: center;
+}
+
+input{
+    width: 80%;
+    padding: 1em;
+    border-radius: 30px;
+    border: 1px solid grey;
+    margin-top: 0;;
+
+}
+.btn-container{
+    margin-top: 1em;
+}
+.btn-container button{
+    padding: 1em;
+    border: none;
+}
+.google-offer{
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+}
+
+.google-offer p{
+    position: absolute;
+    top: 61.5%;
+    left: 33%;       
+}
+.google-offer  ul{
+    display: inline;
+
+}
+
+.google-offer  ul li{
+    position: relative;
+    text-decoration: none;
+    display: inline;
+    padding: 1px;
+    padding-left: 15px; 
+}
+
+.google-offer  ul li a{
+    text-decoration: none;
+    padding: 1px;
+    color: blue;
+}
+
+footer{
+    background: rgb(236, 235, 235);
+}
+
+.footer-top{
+    padding: 1em;
+}
+
+.footer-bottom{
+    padding: 1em;
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid grey;
+}
+.left a{
+    margin-right: 1em;
+}
+.right a{
+    margin-right: 1em;
+}
